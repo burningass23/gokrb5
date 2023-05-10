@@ -10,9 +10,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/jcmturner/gokrb5/v8/crypto"
-	"github.com/jcmturner/gokrb5/v8/iana/keyusage"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/burningass23/gokrb5/v8/crypto"
+	"github.com/burningass23/gokrb5/v8/iana/keyusage"
+	"github.com/burningass23/gokrb5/v8/types"
 )
 
 // ===== Almost const 2 bytes values to represent various values from GSS API RFCs

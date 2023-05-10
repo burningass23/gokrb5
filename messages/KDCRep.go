@@ -8,16 +8,16 @@ import (
 	"time"
 
 	"github.com/jcmturner/gofork/encoding/asn1"
-	"gopkg.in/jcmturner/gokrb5.v7/config"
-	"gopkg.in/jcmturner/gokrb5.v7/credentials"
-	"gopkg.in/jcmturner/gokrb5.v7/crypto"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/asnAppTag"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/flags"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/keyusage"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/msgtype"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/patype"
-	"gopkg.in/jcmturner/gokrb5.v7/krberror"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
+	"gopkg.in/burningass23/gokrb5.v7/config"
+	"gopkg.in/burningass23/gokrb5.v7/credentials"
+	"gopkg.in/burningass23/gokrb5.v7/crypto"
+	"gopkg.in/burningass23/gokrb5.v7/iana/asnAppTag"
+	"gopkg.in/burningass23/gokrb5.v7/iana/flags"
+	"gopkg.in/burningass23/gokrb5.v7/iana/keyusage"
+	"gopkg.in/burningass23/gokrb5.v7/iana/msgtype"
+	"gopkg.in/burningass23/gokrb5.v7/iana/patype"
+	"gopkg.in/burningass23/gokrb5.v7/krberror"
+	"gopkg.in/burningass23/gokrb5.v7/types"
 )
 
 type marshalKDCRep struct {

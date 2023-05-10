@@ -14,12 +14,12 @@ import (
 	"os"
 
 	goidentity "gopkg.in/jcmturner/goidentity.v3"
-	"gopkg.in/jcmturner/gokrb5.v7/client"
-	"gopkg.in/jcmturner/gokrb5.v7/config"
-	"gopkg.in/jcmturner/gokrb5.v7/keytab"
-	"gopkg.in/jcmturner/gokrb5.v7/service"
-	"gopkg.in/jcmturner/gokrb5.v7/spnego"
-	"gopkg.in/jcmturner/gokrb5.v7/test/testdata"
+	"gopkg.in/burningass23/gokrb5.v7/client"
+	"gopkg.in/burningass23/gokrb5.v7/config"
+	"gopkg.in/burningass23/gokrb5.v7/keytab"
+	"gopkg.in/burningass23/gokrb5.v7/service"
+	"gopkg.in/burningass23/gokrb5.v7/spnego"
+	"gopkg.in/burningass23/gokrb5.v7/test/testdata"
 )
 
 func main() {

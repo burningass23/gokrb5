@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/jcmturner/gokrb5.v7/iana"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/addrtype"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/msgtype"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/nametype"
-	"gopkg.in/jcmturner/gokrb5.v7/test/testdata"
+	"gopkg.in/burningass23/gokrb5.v7/iana"
+	"gopkg.in/burningass23/gokrb5.v7/iana/addrtype"
+	"gopkg.in/burningass23/gokrb5.v7/iana/msgtype"
+	"gopkg.in/burningass23/gokrb5.v7/iana/nametype"
+	"gopkg.in/burningass23/gokrb5.v7/test/testdata"
 )
 
 func TestUnmarshalKRBCred(t *testing.T) {
